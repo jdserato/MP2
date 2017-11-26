@@ -42,6 +42,12 @@ public class Main {
 
     public static class Point{
         float x, y;
+
+        Point(int x, int y) {
+            this.x = x;
+            this.y = y;
+        }
+
         Point(String raw) {
             String stringToParse = "";
             int i = 1;
