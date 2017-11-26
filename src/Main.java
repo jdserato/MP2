@@ -57,5 +57,13 @@ public class Main {
             System.out.println(x);
             System.out.println(y);
         }
+
+        public float getX() {
+            return x;
+        }
+
+        public float getY() {
+            return y;
+        }
     }
 }
